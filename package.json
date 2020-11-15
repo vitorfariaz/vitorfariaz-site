@@ -1,0 +1,25 @@
+{
+  "name": "pomodoro-timer",
+  "version": "1.0.0",
+  "description": "Simples aplicação para aplicar a técnica do Pomodoro, deixando o timer ajustável",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorfariaz/pomodoro-timer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitorfariaz/pomodoro-timer/issues"
+  },
+  "homepage": "https://github.com/vitorfariaz/pomodoro-timer#readme",
+  "dependencies": {
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
