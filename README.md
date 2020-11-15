@@ -12,11 +12,11 @@ Então começa o countDown <br />
 
 Quando acesso a aplicação <br />
 Então existe 4 timers configurados <br />
-1° de 25 minutos <br />
-2° de 5 minutos <br />
-3° de 25 minutos <br />
-5° de 10 minutos <br />
-E o 1° é o timer vigente <br />
+ - 1° de 25 minutos
+ - 2° de 5 minutos 
+ - 3° de 25 minutos 
+ - 5° de 10 minutos
+ - E o 1° é o timer vigente
 <br />
 
 Quando acesso a aplicação <br />
