@@ -1,8 +1,7 @@
 # pomodoro-timer
-Simple application to apply the Pomodoro's technique making the timer adjustable
+Simples aplicação para aplicar a técnica do Pomodoro, deixando o timer ajustável
 
-
-## Rules
+## Regras
 Quando acesso a aplicação <br />
 Então o timer padrão é de 25 minutos <br />
 <br />
