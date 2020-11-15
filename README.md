@@ -26,23 +26,23 @@ Então consigo configurar o tempo do timer atual e dos próximos timers <br />
 
 Quando acesso a aplicação <br />
 Então posso editar os 5 timers default <br />
- br />
+<br />
 
 Quando acesso a aplicação <br />
 Então posso criar novos timers  <br />
- br />
+<br />
 
 Quando acesso a aplicação <br />
 Então posso excluir os timers  <br />
- br />
+<br />
 
 Quando acesso a aplicação  <br />
 Então posso mudar a ordem dos timers <br />
- br />
+<br />
 
 Quando o countDown do timre acaba  <br />
 Então devo receber uma notificação com som durante 10 segundos <br />
- br />
+<br />
  
 Quando acesso a aplicação <br />
 Então consigo configurar tempo da notificação <br />
