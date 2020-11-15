@@ -2,15 +2,14 @@
 Simple application to apply the Pomodoro's technique making the timer adjustable
 
 
-
 ## Rules
 Quando acesso a aplicação <br />
 Então o timer padrão é de 25 minutos <br />
- <br />
+<br />
 
 Quando clico em Start para o timer vigente <br />
 Então começa o countDown <br />
- <br />
+<br />
 
 Quando acesso a aplicação <br />
 Então existe 4 timers configurados <br />
@@ -19,25 +18,37 @@ Então existe 4 timers configurados <br />
 3° de 25 minutos <br />
 5° de 10 minutos <br />
 E o 1° é o timer vigente <br />
- <br />
+<br />
 
 Quando acesso a aplicação <br />
 Então consigo configurar o tempo do timer atual e dos próximos timers <br />
- <br />
+<br />
 
 Quando acesso a aplicação <br />
 Então posso editar os 5 timers default <br />
- <br />
+ br />
 
 Quando acesso a aplicação <br />
 Então posso criar novos timers  <br />
- <br />
+ br />
 
 Quando acesso a aplicação <br />
 Então posso excluir os timers  <br />
- <br />
+ br />
 
 Quando acesso a aplicação  <br />
 Então posso mudar a ordem dos timers <br />
- <br />
+ br />
 
+Quando o countDown do timre acaba  <br />
+Então devo receber uma notificação com som durante 10 segundos <br />
+ br />
+ 
+Quando acesso a aplicação <br />
+Então consigo configurar tempo da notificação <br />
+<br />
+ 
+Quando acesso a aplicação <br />
+Então consigo alterar o som da notificação <br />
+<br />
+ 
