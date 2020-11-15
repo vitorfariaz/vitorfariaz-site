@@ -37,7 +37,7 @@ Quando acesso a aplicação <br />
 Então posso excluir os timers  <br />
  <br />
 
-Quando acesso a aplicação
-Então posso mudar a ordem dos timers
-<br />
+Quando acesso a aplicação  <br />
+Então posso mudar a ordem dos timers <br />
+ <br />
 
