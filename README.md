@@ -1,7 +1,17 @@
 # pomodoro-timer
 Simples aplicação para aplicar a técnica do Pomodoro, deixando o timer ajustável
 
-## Regras
+## Aplicação
+A aplicação pode ser acessada através do link abaixo <br />
+https://pomodoro-timer-steel.vercel.app
+
+## Tecnologias
+ - React
+ - Next.js <br />
+A aplicação está deployada na vercel, o que significa que a cada push na branch 'main', é feito o deploy/atualização automática do projeto, podendo ser visualizada no link abaixo. <br/>
+https://pomodoro-timer-steel.vercel.app <br />
+
+## Regras da aplicação
 Quando acesso a aplicação <br />
 Então o timer padrão é de 25 minutos <br />
 <br />
