@@ -24,7 +24,7 @@ class Contador extends Component {
         return (
             <div>
                 <div>{this.transformaEmTempo(this.state.contador)}</div>
-                <button >Iniciar contador</button>
+                <button onClick={this.iniciarCountdown}>Iniciar contador</button>
             </div>
         )
     };
