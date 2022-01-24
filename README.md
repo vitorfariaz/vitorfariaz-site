@@ -1,5 +1,5 @@
 # pomodoro-timer
-Simples aplicação para aplicar a técnica do Pomodoro, deixando o timer ajustável
+I Simples aplicação para aplicar a técnica do Pomodoro, deixando o timer ajustável
 
 ## Aplicação
 A aplicação pode ser acessada através do link abaixo <br />
