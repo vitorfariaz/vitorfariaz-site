@@ -1,33 +1,25 @@
-import React, { Component } from 'react';
+import { useState } from 'react';
 
-class Contador extends Component {
-    constructor() {
-        super()
-        this.state = {
-            contador: 60*25
-        }
+function Contador() {
+    const [counter, setContador] = useState(1);
+
+    function incrementarContador() {
+        setContador(counter + 1);
     }
 
-    transformaEmTempo = (segundos) => {
-        var date = new Date(0);
-        date.setSeconds(segundos); // specify value for SECONDS here
-        return date.toISOString().substr(11, 8);
+    function reset() {
+        setContador(0);
     }
 
-    iniciarCountdown = () => {
-        setInterval(() => {
-            this.setState({ contador: this.state.contador - 1 })
-        }, 1000);
-    };
-
-    render() {
-        return (
-            <div>
-                <div>{this.transformaEmTempo(this.state.contador)}</div>
-                <button onClick={this.iniciarCountdown}>Iniciar contador</button>
-            </div>
-        )
-    };
+    return (
+        <div>
+            <div>{counter}</div>
+            <br />
+            <button onClick={incrementarContador}>Add</button>
+            <br />
+            <button onClick={reset}>Reset</button>
+        </div>
+    )
 }
 
 export default Contador
