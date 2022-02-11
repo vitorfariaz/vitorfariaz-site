@@ -4,7 +4,7 @@ export const MainCss = styled.main`
 background-color: #E4E0E0;
 margin: -8px;
 margin-top: -20px;
-
+ 
   img {
     margin-left: 35%;
     
