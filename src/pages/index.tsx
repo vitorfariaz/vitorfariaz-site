@@ -13,7 +13,7 @@ const Home: NextPage = () => {
   return (
     <ThemeProvider theme={teste}>
       <div className="principal">
-        <GlobalStyle />
+        <GlobalStyle /> 
         <HeadV />
         <Menu />
         <Rotmg/>

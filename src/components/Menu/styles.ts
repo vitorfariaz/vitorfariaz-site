@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import Theme from '../../foundation/Theme.js';
+import Theme from '../../foundation/Theme';
 
 export const MenuCss = styled.nav`
-  background-color:  #333333; // ${props => props.theme.primary};
+  background-color:  #333333; 
   height: 4rem;
   color: #FFFFFF; // ${Theme.primaryContrast};
   font-family: "Poppins", sans-serif;

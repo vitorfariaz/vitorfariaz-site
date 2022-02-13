@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Char } from "./styles.js";
+import { Char } from "./styles";
 
 export const Rotmg: NextPage = () => {
   return (

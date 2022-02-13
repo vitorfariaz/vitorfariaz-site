@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { MenuCss } from "./styles.js";
+import { MenuCss } from "./styles";
 
 export const Menu: NextPage = () => {
   return (

@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { useState } from "react";
-import { Footer } from "./styles.js";
+import { Footer } from "./styles";
 
 export const FooterV: NextPage = () => {
   const [state] = useState({
@@ -15,7 +15,9 @@ export const FooterV: NextPage = () => {
       <div className="social">
         <a href={state.gitHub} target="_blank" rel="noopener noreferrer">
           <img src="./in-icon.png" alt="linkedin icon" />
+          
         </a>
+          &nbsp;|&nbsp;
 
         <a href={state.linkedin} target="_blank" rel="noopener noreferrer">
           <img src="./insta-icon.png" alt="instagram icon" />
