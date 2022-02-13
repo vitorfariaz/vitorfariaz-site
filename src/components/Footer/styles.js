@@ -10,7 +10,4 @@ export const Footer = styled.footer`
   text-decoration: none;
   font-weight: bold;
   text-align: center;
-
-  margin: -8px;
-  margin-top: 200px;
 `;

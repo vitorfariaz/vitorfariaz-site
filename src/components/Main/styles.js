@@ -1,19 +1,17 @@
 import styled from "styled-components";
 
 export const MainCss = styled.main`
+  
 background-color: #E4E0E0;
-margin: -8px;
-margin-top: -20px;
+text-align: center;
  
-  img {
-    margin-left: 35%;
-    
-    height: 35rem;
-    width: 35rem;
-  }
+img {
+  margin: auto;
+  min-width: 320px;
+  max-width: 482px;
+}
 
-  h1{
-    margin-top: 15px;
-    text-align: center;
-  }
+h1{
+  text-align: center;
+}
 `;

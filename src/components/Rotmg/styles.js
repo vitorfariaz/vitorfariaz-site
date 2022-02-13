@@ -4,7 +4,6 @@ export const Char = styled.div`
   --steel-color: white;
   --str-gray: #333333;
 
-  margin: -8px;
   background-color: #E4E0E0;;
   height: 8rem;
   
