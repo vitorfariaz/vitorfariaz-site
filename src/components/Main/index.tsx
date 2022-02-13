@@ -7,10 +7,8 @@ export const MainV: NextPage = () => {
       <h1>Em construção</h1>
       <section>
         <div className="article">
-          <article>Lorem ipsum dolor sit amet, consectetur adip
-          lorem ipsum dolor sit amet, consectetur adipisicing
-          lorem ipsum dolor sit amet, consectetur adipisicing
-
+          <article>Estou desenvolvendo esse site para futuramente criar um vídeo explicando quais conhecimentos é preciso ter para 
+            construir e hospedar o seu site na internet 
           </article>
         </div>
 
