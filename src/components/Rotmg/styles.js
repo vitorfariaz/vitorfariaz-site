@@ -3,16 +3,22 @@ import styled from "styled-components";
 export const Char = styled.div`
   --steel-color: white;
   --str-gray: #333333;
+  --shield-color: #666363;
+  --body-color: gray;
 
-  background-color: #E4E0E0;;
+
+  margin: auto;
+  background-color: ${props => props.theme.colors.primary}; // #E4E0E0;
+
   height: 8rem;
   
   .body {
-    background-color: gray;
+    background-color: var(--body-color);
     width: 5rem;
     height: 7rem;
     margin-left: 1rem;
     margin: auto;
+    margin-bottom: 16px;
   }
 
   .left-leg {
@@ -36,7 +42,7 @@ export const Char = styled.div`
   }
 
   .bell {
-    background-color: #333333;
+    background-color: var(--str-gray);
     width: 5rem;
     height: 1rem;
     position: absolute;
@@ -44,7 +50,7 @@ export const Char = styled.div`
   }
 
   .icon-bell {
-    background-color: white;
+    background-color: var(--steel-color);
     position: absolute;
     width: 1rem;
     height: 1rem;
@@ -53,7 +59,7 @@ export const Char = styled.div`
     margin-left: 2rem;
   }
   .helmet{
-    background-color: white;
+    background-color: var(--steel-color);
     position: absolute;
     height: 3rem;
     width: 5rem;
@@ -78,7 +84,7 @@ export const Char = styled.div`
   }
 
   .hand{
-    background-color: gray;
+    background-color: var(--body-color);
     position: absolute;
     height: 1rem;
     width: 1rem;
@@ -87,7 +93,7 @@ export const Char = styled.div`
   }
 
   .sword{
-    background-color: gray;
+    background-color: var(--body-color);
     position: absolute;
     height: 5rem;
     width: 1rem;
@@ -96,7 +102,7 @@ export const Char = styled.div`
   }
 
   .sword > .hilt{
-    background-color: white;
+    background-color: var(--steel-color);
     position: absolute;
     height: 1rem;
     width: 1rem;
@@ -104,7 +110,7 @@ export const Char = styled.div`
   }
 
   .shield{
-    background-color: #666363;
+    background-color: var(--shield-color);
     position: absolute;
     height: 3rem;
     width: 3rem;

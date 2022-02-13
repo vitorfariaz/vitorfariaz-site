@@ -14,11 +14,11 @@ export const FooterV: NextPage = () => {
     <Footer>
       <div className="social">
         <a href={state.gitHub} target="_blank" rel="noopener noreferrer">
-          Github
+          <img src="./in-icon.png" alt="linkedin icon" />
         </a>
 
         <a href={state.linkedin} target="_blank" rel="noopener noreferrer">
-          LinkedIn
+          <img src="./insta-icon.png" alt="instagram icon" />
         </a>
       </div>
 

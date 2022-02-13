@@ -4,15 +4,15 @@ declare module 'styled-components' {
 
     export interface DefaultTheme {
 
-        title: string,
+        title: string;
 
         colors: {
-            primary: string,
-            secundary: string,
+            primary: string;
+            secundary: string;
         },
 
-        background: string,
-        text: string,
+        background: string;
+        text: string;
     }
 
 }
