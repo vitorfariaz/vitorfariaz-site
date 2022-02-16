@@ -16,29 +16,47 @@ export const MainCss = styled.main`
   }
 
   .article {
-    margin-right: 10px;
+    margin-left: 5%;
     padding: 10px;
+    animation: left-appear 2s;
   }
 
   img {
-    animation: right-appear 2s;
+    margin-right: 5%;
     width: 70%;
     height: 70%;
     max-width: 800px;
-    min-width: 200px;
+    min-width: 150px;
+    animation: right-appear 2s;
   }
 
   @keyframes right-appear{
     from{
-      transform: translateX(100%);
+      transform: translateX(30%);
       opacity: 0;
-    }  
+      width: 1%;
+      height: 1%;
+    } 
+
     to{
       transform: translateX(0);
       visibility: 100%;
+      width: 70%;
+      height: 70%;
     }
 
   }
 
+  @keyframes left-appear{
+    from{
+      transform: translateX(-30%);
+      opacity: 0;
+    } 
+
+    to{
+      transform: translateX(0);
+      visibility: 100%;
+    }
+  }
 
 `;

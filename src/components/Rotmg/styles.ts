@@ -19,6 +19,7 @@ export const Char = styled.div`
     margin-left: 1rem;
     margin: auto;
     margin-bottom: 16px;
+
   }
 
   .left-leg {
@@ -39,6 +40,7 @@ export const Char = styled.div`
     position: absolute;
     margin-top: 7rem;
     margin-left: 4rem;
+
   }
 
   .bell {
@@ -58,6 +60,7 @@ export const Char = styled.div`
     margin-top: 0rem;
     margin-left: 2rem;
   }
+
   .helmet{
     background-color: var(--steel-color);
     position: absolute;
@@ -65,6 +68,7 @@ export const Char = styled.div`
     width: 5rem;
     margin-top: 1rem;
   }
+
   .eyes{
     background-color: var(--str-gray);
     position: absolute;
@@ -72,8 +76,8 @@ export const Char = styled.div`
     width: 3rem;
     margin-top: 1rem;
     margin-left: 1rem;
-    
   }
+
   .noose{
     background-color: var(--str-gray);
     position: absolute;
@@ -99,6 +103,7 @@ export const Char = styled.div`
     width: 1rem;
     margin-top: 0rem;
     margin-left: 6rem;
+    border: 0.5px solid black;
   }
 
   .sword > .hilt{
@@ -117,7 +122,7 @@ export const Char = styled.div`
     margin-top: 4rem;
     margin-left: -1rem;
     z-index: 1;
-
+    border: 0.5px solid black;
   }
 
 `;
