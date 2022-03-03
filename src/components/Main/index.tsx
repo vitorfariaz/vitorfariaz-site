@@ -7,7 +7,9 @@ export const MainV: NextPage = () => {
       <h1>Em construção</h1>
       <section>
           <article>Estou desenvolvendo esse site para futuramente criar um vídeo explicando quais conhecimentos é preciso ter para 
-            construir e hospedar o seu site na internet 
+            construir e hospedar o seu site na internet  <br />
+            Abrindo MR
+
           </article>
 
           <img src="/perfil-face.jpg" alt="Foto de Vitor Farias" />
