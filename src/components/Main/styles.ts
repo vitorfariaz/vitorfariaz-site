@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const MainCss = styled.main`
   
+
+
+
   background-color: ${props => props.theme.colors.primary};
   
   h1{
@@ -15,19 +18,36 @@ export const MainCss = styled.main`
     
   }
 
-  .article {
-    margin-left: 5%;
+  article {
+
+    background-color: gray;
+    border: 1px solid black;
+    box-shadow: 0.5px 0.5px 5px black;  
+    border-radius: 5px;
+
     padding: 10px;
     animation: left-appear 2s;
+    width: 30%;
   }
 
   img {
-    margin-right: 5%;
+
     width: 70%;
     height: 70%;
-    max-width: 800px;
+    max-width: 600px;
     min-width: 150px;
     animation: right-appear 2s;
+    display: block;
+
+    border: 1px solid black;
+    box-shadow: 0.5px 0.5px 5px black;  
+    border-radius: 5px;
+  }
+
+  .text{
+    display: inline-block;
+
+    background-color: red;
   }
 
   @keyframes right-appear{
