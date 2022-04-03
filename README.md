@@ -17,4 +17,5 @@ npm run dev
 yarn dev
 ```
 
-
+Access the page in your browser through
+`localhost:3000`
